@@ -1,0 +1,1262 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+body {
+    color: #505050;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    width: 100%;
+    
+    
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.cambista-visible {
+    display: none;
+}
+
+#btn-apostar-simulacao, #btn-apostar-simulacao{
+    display: none;
+
+}
+.dados-user-topo {
+    background: #30A769;
+    color: #FFF;
+    width: 100%;
+    height: 50px;
+    font-size: 14px;
+    display: none;
+}
+.sair-user {
+    color: #EC002D;
+    font-size: 25px;
+    margin-left: 10px;
+    cursor: pointer;
+    padding-top: 10px;
+}
+.dados-user {
+    cursor: pointer;
+}
+.dados-user-int {
+    width: 50%;
+    height: auto;
+    float: right;
+    margin-right: 0px;
+    padding-top: 8px;
+}
+
+.box-user-nome {
+    width: 30%;
+    height: auto;
+    padding:4px;
+    background: #FFF;
+    color: #000;
+    margin-left: 6px;
+}
+
+.opcoes-list {
+    font-size: 14px;
+    padding:4px;
+    color: #000;
+    width: 100%;
+    height: auto;
+
+
+}
+
+.fechar-login{
+    display: none;
+}
+
+.palpite-qtd {
+    display: none;
+}
+
+.list-camp-mobile {
+    display: none;
+}
+.mobile-visible {
+    display: none;
+}
+.limites {
+    display: none;
+}
+.menu_top{
+    float: right;
+    
+}
+.menu_top li {
+    list-style: none;
+    display: inline-block;
+    padding: 6px 11px 5px 15px;
+    border-left: 1px solid rgba(255,255,255,0.4);
+    position: relative;
+    color: #FFFFFF;
+}
+.menu_top ul {
+    margin-bottom: 0px;
+}
+.menu_top a {
+    color : #FFFFFF;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.menu_top a:hover {
+    color : #000;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.modal-odds {
+    z-index: 999;
+}
+
+.bilhete {
+    background: #F7ECBE;
+}
+
+.btn-busca {
+    background: #136EA1;
+    color: #FFF;
+}
+#selecoes-pule {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding: 4px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+
+#codigo-bilhete{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding: 4px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.situacao-partida {
+    font-size: 13px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.indice-bilhete {
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+    font-weight: bolder;
+    margin-bottom: 2px;
+}
+
+.valor-bilhete {
+    font-weight: normal;
+}
+
+.navegacao a:hover{
+    color: #FFF;
+}
+
+.modal-title  {
+    
+    color: #000;
+    margin-left: 5px;
+    float: left;
+    font-size: 20px;
+}
+
+#enviar-simulacao {
+    cursor: pointer;
+}
+.alert {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.aposta-simulada li {
+    list-style: none;
+    text-align: justify;
+}
+.close {
+    float:left;
+    margin-right: 15px;
+    margin-left: 5px;
+    cursor: pointer;
+    color: #FFF;
+    
+
+}
+
+#geral-box{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    background: #E6E6E6;
+    padding: 2px;
+    margin-top: 5px;
+}
+
+.box-valor{
+    width: 22%;
+    height: auto;
+    font-size: 18px;
+    background: #FFDD20;
+    color: #000;
+    display: inline;
+    margin: 4px;
+    padding: 4px;
+    float: right;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px ;
+    border: 1px  solid #000;
+}
+
+.separador-confronto {
+
+    color: #C02F2A;
+    font-size: 14px;
+}
+.grupo-aposta {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background:#0067AB;
+    color: #FFF; 
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.geral-odds {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    float: left;
+}
+
+.odd-plus {
+    width: 100%;
+    height: 45px;
+    padding: 8px;
+    font-size: 1.2em;
+    display: block;
+    float: left;
+    background: #000;
+    border: 1px solid #FFF;
+    color: #FFF;
+    cursor: pointer;
+    
+}
+.taxaOdd {
+    display: none;
+}
+
+.nome-odd {
+    float: left;
+}
+
+.taxa-odd {
+    float: right;
+}
+
+
+.rodape-bilhete{
+
+    margin-bottom: 3px;
+}
+.top {
+    float: left;
+    display: block;
+    width: 100%;
+    background-color: #136EA1; 
+    position: relative;
+    font-size: 13px;
+}
+.info_top {
+    float: left;
+    padding: 5px 16px 5px 16px;
+    height: 30px;
+    color : #FFFFFF!important;
+
+}
+
+
+.chamadaBanner {
+
+    margin-top: 132px;
+    margin-bottom: 10px;
+    background: #136EA1;
+}
+
+.pesquisaBtn {
+    cursor: pointer;
+}
+
+
+
+
+.col-xs-1, .col-sm-1, .col-md-1,
+.col-lg-1, .col-xs-2, 
+.col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, 
+.col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, 
+.col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, 
+.col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, 
+.col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, 
+.col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10,
+.col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12,
+.col-lg-12, .list-group-item {padding-left:7px;padding-right:7px;}
+
+.corpo {
+    padding-top: 20px;
+    height: 100%;
+}
+.widget {
+    float: left;
+    width: 100%;
+}
+.widget-title {
+    float: left;
+    width: 100%;
+    /* margin-bottom: 18px; */
+}
+.widget-title h2 {
+    border-color: #373435!important;
+}
+.divisor{
+    background-color: #474747;
+    height: 1px;
+    margin-bottom: 5px;
+}
+
+
+.titulo_menu {
+    margin-bottom: 5px;
+    color: #000;
+}
+
+
+.divisorEsquerdo{
+    background-color: #FFF;
+    height: 1px;
+    margin-bottom: 1px;
+}
+
+.menu_lateral_campeonatos h4  {
+    margin-bottom: 1px;
+}
+
+.menu_lateral_campeonatos {
+    
+    color: #000;
+    padding: 6px;
+}
+
+
+
+.menu_lateral_campeonatos ul li a {
+    color: #000;
+    float: left;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 5px;
+    
+}
+.menu_lateral_campeonatos ul li a:hover {
+    margin-right: 14px;
+    float: left;
+    color: #FFF;
+    background: #000;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    width: 100%;
+}
+.menu_lateral_campeonatos ul {
+    padding-top: 20px;
+    
+}
+
+.competicoes  {
+ 
+}
+
+.partidas {
+   
+   
+}
+.menu_lateral ul li a {
+    color: #666666;
+    float: left;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 5px;
+    
+}
+.menu_lateral ul li a:hover {
+    margin-right: 14px;
+    float: left;
+    color: #FFF;
+    background: #666;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    width: 100%;
+}
+.menu_lateral ul {
+    padding-top: 20px;
+    
+}
+
+
+.widget ul li{
+    float: left;
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px solid #dedede;
+    padding: 3px 0px;
+    display: block;
+}
+.widget ul li {
+    list-style: none;
+}
+.navegacao {
+    float: left;
+    width: 100%;
+    background-color: #023880!important;
+    /* background-color: rgba(0,0,0,0.1); */
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    max-height: 100px;
+}
+.logo img {
+    float: left;
+}
+
+.login-topo {
+    background: #FFDD20;
+    color: #0067AB;
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    display: none;
+
+}
+
+.login-int {
+    float: right;
+}
+
+.login-int input {
+    border-color: ##0067AB;
+    color: #0067AB;
+}
+
+.menu-fixo {
+    position: fixed;
+    z-index: 100;
+    top:0;
+
+width:100%;
+height: auto;
+
+}
+.navegacao logo {
+    float: left;
+    width: 100%;
+    background-color: #e6e6e6;
+    /* background-color: rgba(0,0,0,0.1); */
+    text-align: center;
+    padding: 25px 0px;
+    transition: all 0.3s ease-in-out;
+    max-height: 100%;
+}
+img {
+    max-width: 100%;
+}
+.logo a {
+    display: block;
+}
+.logo {
+
+}
+.navegacao-item {
+
+    float: right;
+}
+.navegacao-item ul {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    list-style: none;
+}
+.navegacao-item ul li {
+    float: left;
+    position: relative;
+    list-style: none;
+}
+.navegacao-item ul li a {
+    display: block;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #008f4d;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px 16px;
+}
+
+.btn-busca {
+    cursor: pointer;
+}
+
+.header-absolut {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 999;
+}
+
+.header-absolut a {
+    color:#FFF;
+}
+.navbar-light .navbar-nav .active>.nav-link, 
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    font-size: 20px;
+ 
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 20px;
+    color: #0067AB;
+   
+    
+}
+.navbar-light .navbar-nav .active>.nav-link, 
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    margin-left: 30px;
+
+    
+
+}
+.menu_items {
+    padding-bottom: 10px;
+
+}
+
+
+
+.navbar-expand-lg{
+    height: 100px;
+}
+.page-header {
+    background-color: #373435!important;
+}
+.info-container{
+    float: left;
+    width: 100%;
+    background-color: #f4f4f4;
+    padding: 20px 20px 0px 20px;
+    text-align: center;
+    position: relative;
+    text-align: left;
+    background-color: #ffffff;
+    padding: 15px 0px 30px 0px;
+    border-bottom: 1px solid #d1d1d1;
+}
+.info-container h2 {
+    color: #333333;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0px 0px 8px 0px;
+}
+
+.w-100 {
+    padding-bottom: 20px;
+}
+.divisor-ligth{
+    height: 1px ;
+    background-color: #999999;
+}
+.titulo-table {
+    width: 100%;
+    background-color: #08486C;
+    color: #FFFFFF;
+    padding:  7px;
+    margin-top: 5px;
+    font-size: 18px;
+    border-radius: 4px 4px 0px 0px;
+}
+
+
+/*Configurações das ODDS
+Aqui segue todas aos configurações css das ODDS
+*/
+.centerTopOdd {
+    width: auto;
+    text-align: center;
+}
+
+.oddClass {
+    width: 100%;
+    height: 45px;
+    padding: 8px;
+    font-size: 1.2em;
+    background:#FFF !important;
+    color:#000!important;
+    border:solid thin #666;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+   
+}
+
+.nomeOddhome {
+    width: 25%;
+    height: 45px;
+    background: #000;
+    color: #FFF;
+    padding: 8px;
+    margin-left: 0;
+    float: left;
+    font-size: 1.2em;
+    margin-bottom: 0;      
+
+}
+
+.selecionado {
+    width: 100%;
+    height: 45px;
+    padding: 8px;
+    font-size: 1.2em;
+    background:#FFDD20 !important;
+    color:#000 !important;
+    border:solid thin #666;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+
+    width: 25%;
+    height: 45px;
+    background: #FFDD20;
+    color: #000;
+    padding: 8px;
+    margin-left: 0;
+    float: left;
+    font-size: 1.2em;
+    margin-bottom: 0;      
+
+   
+}
+
+.valores-odds {
+    width: 100%;
+    height: auto;
+    padding: 8px;
+}
+
+.odds {
+    float: left;
+    margin-right: 10%;
+    width: 20%;
+    height: auto;
+}
+
+.grupoApostas{
+	width: 100%;
+	height: auto;
+	padding: 8px;
+	font-size: 15px;
+	background: #F0AD4E;
+	color: #FFF;
+    font-weight:bolder;
+}
+
+.nomeOdd {
+	width: 10%;
+	height: auto;
+	padding: 6px;
+	font-size: 19px;
+	color: #000;
+	margin-bottom: 4px;
+	border-bottom: 1px dashed;
+}
+
+
+.rightOdd {
+	float: right;
+	width: 80px;
+	height: 45px;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    border-bottom: 1px #FFF dashed;
+    background:#FFF !important;
+    color:#000!important;
+    border:solid thin #666;
+    cursor: pointer;
+    text-align: center;
+    
+
+}
+
+.rightOdds {
+	width: 100%;
+	height: auto;
+	padding: 8px;
+	display: inline-block;
+}
+
+.dataHora {
+    color: #C32E2A;
+    font-size: 0.9em;
+    padding: 8px;
+}
+
+.card {
+    margin-bottom: 8px;
+}
+
+.campeonato-titulo-pule {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    border-bottom: 1px dashed #CCC;
+    border-top: 1px dashed #CCC;
+}
+
+.delete-pule {
+    color: #E20528;
+    margin-right: 6px;
+    font-size: 40px;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+.data-confronto {
+    color: #D80E0E;
+    font-size: 14px;
+    font-style: italic;;
+}
+
+.palpite-confronto {
+    font-weight: bolder;
+    width: 100%;
+    height: auto;
+    padding: 4px;
+
+}
+
+.valores-cliente {
+    margin-top: 10px;
+
+
+}
+
+.valor-apostado{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+
+}
+
+
+
+.retorno-final {
+    width: 100%
+    height:auto;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFF;
+    background: #000;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.lateral {
+    background: #08486C;
+    color: #FFF;
+}
+
+.lateral ul li a {
+    color: #FFF;
+    padding: 8px;
+    font-size:14px;
+}
+
+.lateral ul li a:hover {
+    color: #000;
+    padding: 8px;
+    font-size: 14px;
+    background: #FFF;
+}
+
+.load {
+    text-align: center;
+    margin-top: 15px;
+}
+
+/*Fim das ODDs*/
+.plusOdd {
+    width: 10%
+    height: auto;
+    font-size: 1.3em;
+    color: #284E37;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bolder;
+    float: left;
+    margin-top: 7px;    
+}
+
+.hideOdd {
+    height: 40px;
+    padding: 8px;
+    font-size: 19px;
+    margin-top: 4px;
+    background: #E62117;
+    color: #FFF;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bolder;
+    
+}
+
+
+
+.minhasApostas{
+	background: #423E3E;
+	color: #FFF;
+	margin-bottom: 0px;
+	margin-top: 10px;
+	padding: 8px;
+	font-size: 16px;
+	border-top-left-radius: 10px;
+	-webkit-border-top-left-radius: 10px;
+	-moz-border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-top-right-radius: 10px;	
+}
+
+.fullSlipMode {
+	text-align: left;
+}
+
+.jogoSelecionado  {
+	list-style: none;
+	font-size: 12px;
+}
+
+.topoApostas {
+	width: 100%;
+	height: auto;
+	background: #000;
+	padding: 6px;
+	color: #FFF;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.floatRight {
+	float: right;
+}
+
+.jogosApostados {
+	width: 100%;
+	height: auto;
+	margin-left: 0px;
+}
+
+#ganho {
+	width: 100%;
+	height: auto;
+	padding: 6px;
+	font-size: 15px;
+	font-weight: bold;
+	background: #B41718;
+	color: #FFF;
+}
+
+#inputCliente {
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+
+.valores {
+	width: 100%;
+	height: auto;
+	padding: 8px;
+	background:#1D4977;
+	color: #FFF;
+	text-align: center;
+	border-bottom-left-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	-moz-border-bottom-right-radius: 10px;	
+	
+}
+
+#valorApostado{
+    width: 100%;
+    height: 40px;
+    padding: 4px;
+    padding-left: 4px;
+    border-radius: 3px;
+    border: 1px solid #CCC;
+    font-weight: bold;
+}
+
+
+.btnSalvar {
+margin-top: 10px;
+cursor: pointer;
+}
+
+
+#ganho {
+    margin-top: 8px;
+}
+
+
+.fechar {
+    color: #FFF;
+    cursor: pointer;
+    float: right;
+}
+
+.footer {
+        background-color: #000!important;
+        text-align: center;
+
+       
+}
+.footer p {
+    color: #ffffff;
+    padding: 12px 0px;
+   
+
+}
+
+
+.btn-logar {
+    background: #0067AB;
+    color: #FFF;
+    border-color: #FFF;
+    cursor: pointer;
+}
+
+.btn-logar:hover {
+    background: #0067AB;
+    color: #FFF;
+    border-color: #FFF;
+    cursor: pointer;
+}
+
+.menu-topo-collapse {
+    display: none;
+}
+
+.regras-site {
+    text-align: justify;
+    font-size: 17px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+
+
+/*Display Celular*/
+@media screen and (max-width:400px){
+
+
+
+.fechar-login{
+    display: block;
+    font-size: 22px;
+    color: #000;
+    float: right;
+    padding: 2px;
+   
+}
+
+.navegacao-item{
+    float: left;
+    text-align: left;
+    width: 100%;
+    height: auto;
+    padding: 4px;
+}
+
+.list-camp-mobile {
+    display: block;
+}
+
+.list-camp-mobile{
+    text-align: left;
+}
+
+
+.list-camp-mobile ul li {
+    list-style: none;
+
+}
+
+.list-camp-mobile li a {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 5px;
+    font-size: 15px;
+    color: #FFF;
+    background: #0067AB;
+    border-bottom: 1px solid #FFF;
+    border-left: 4px solid #000;
+
+
+}
+
+.list-camp-mobile{
+    width:100%; overflow-x:hidden; overflow-y:auto; height:250px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, 
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    font-size: 10px;
+ 
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 15px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    display: block;
+    color: #0067AB;
+    border-top: 1pt solid #CCC;
+   
+    
+}
+.navbar-light .navbar-nav .active>.nav-link, 
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    margin-left: 10px;
+    
+
+}
+
+.login-mobile{
+    display: block;
+    font-size: 18px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.form-top{
+    clear:both;
+    margin: 4px;
+}
+
+#navbarSupportedContent {
+    height: auto;
+}
+.menu-topo-collapse {
+    display: block;
+    font-size: 40px;
+    color: #0067AB;
+    cursor: pointer;
+
+}
+
+
+
+.navbar-collapse {
+    background: #E6E6E6;
+    
+}
+
+
+
+#busca-mobile{
+    width: 100%;
+    height: auto;
+    padding: 4px;
+}
+  .logo img {
+    width: 75px;
+    height:75px;
+  }
+
+  .menu_lateral_campeonatos {
+    display: none;
+  }
+
+
+.menuApostas {
+    display: none;
+  }
+
+.titulo_menu h4 {
+    font-size: 1.2em;
+}
+
+.titulo-table  {
+    font-size: 0.9em;
+}
+
+.confronto-style{
+    font-size: 0.7em;
+}
+
+/*Organização das Odds Home*/
+.oddClass {
+    width: 100%;
+    height: 30px;
+    padding: 4px;
+    font-size: 0.9em;
+    background:#FFF !important;
+    color:#000!important;
+    border:solid thin #666;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bolder;
+   
+}
+
+.nomeOddhome {
+    width: 25%;
+    height: 30px;
+    background: #000;
+    color: #FFF;
+    padding: 2px
+    margin-left: 0;
+    float: left;
+    font-size: 0.7em;
+    padding-top: 8px;
+
+}
+
+.selecionado {
+    width: 100%;
+    height: 30px;
+    padding: 4px;
+    font-size: 0.9em;
+    background:#FFDD20 !important;
+    color:#000 !important;
+    border:solid thin #666;
+    cursor: pointer;
+    text-align: center;
+   
+}
+
+.valores-odds {
+    width: 100%;
+    height: auto;
+    padding: 3px;
+}
+
+.odds {
+    float: left;
+    margin-right: 5%;
+    width: 25%;
+    height: auto;
+}
+
+.odd-plus {
+    width: 100%;
+    height: 45px;
+    padding: 8px;
+    font-size: 1.2em;
+    display: block;
+    float: left;
+    background: #000;
+    border: 1px solid #FFF;
+    color: #FFF;
+    cursor: pointer;
+    
+}
+
+.plusOdd {
+    width: 10%
+    height: auto;
+    font-size: 0.9em;
+    color: #284E37;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bolder;
+    float: left;
+    margin-top: 5px;    
+}
+
+
+.login-topo {
+    background: #FFDD20;
+    color: #0067AB;
+    width: 100%;
+    height: 190px;
+    padding: 10px;
+    display: none;
+    
+}
+
+#login-input, #senha-input {
+    width: 100%;
+    height: 45px;
+    margin-bottom: 5px;
+}
+
+.login-int input {
+    border-color: #0067AB;
+    color: #0067AB;
+}
+
+.palpite-qtd {
+    display: none;
+}
+
+.palpite-qtd{
+    position: fixed;
+    left: 30%;
+    width: 150px;
+    bottom: 0;
+    height: 50px;
+    background-color: #FFDD20;
+    color: #0067AB;
+    padding: 12px;
+    text-align: center;
+    z-index: 999;
+    
+/* Safari 3-4, iOS 1-3.2, Android 1.6- */
+-webkit-border-radius: 12px 12px 0  0; 
+
+/* Firefox 1-3.6 */
+-moz-border-radius: 12px 12px 0  0;  
+
+/* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+border-radius: 12px 12px 0  0; 
+}

@@ -1,0 +1,36 @@
+{
+	"authHost": "http://starbetss.net.br",
+	"authEndpoint": "/broadcasting/auth",
+	"clients": [
+		{
+			"appId": "1205797",
+			"key": "f14fa5935a785a9e6ea0"
+		}
+	],
+	"database": "sqlite",
+	"databaseConfig": {
+		"redis": {},
+		"sqlite": {
+			"databasePath": "/database/laravel-echo-server.sqlite"
+		}
+	},
+	"devMode": false,
+	"host": null,
+	"port": "6010",
+	"protocol": "https",
+	"socketio": {},
+	"sslCertPath": "/etc/letsencrypt/live/csportes.net/fullchain.pem",
+	"sslKeyPath": "/etc/letsencrypt/live/csportes.net/privkey.pem",
+	"sslCertChainPath": "",
+	"sslPassphrase": "",
+	"subscribers": {
+		"http": true,
+		"redis": false
+	},
+	"apiOriginAllow": {
+		"allowCors": false,
+		"allowOrigin": "",
+		"allowMethods": "",
+		"allowHeaders": ""
+	}
+}

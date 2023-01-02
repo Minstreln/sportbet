@@ -1,0 +1,7 @@
+AuthName "bolha.dev.br statistics"
+AuthType Basic
+AuthUserFile /home/bolha/.stats-htpasswd
+require valid-user
+<Files .stats-htpasswd>
+deny from all
+</Files>

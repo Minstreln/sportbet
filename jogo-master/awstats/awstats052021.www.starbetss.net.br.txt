@@ -1,0 +1,464 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 202105 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.starbetss.net.br.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 30
+POS_GENERAL 2069                
+POS_TIME 2758                
+POS_VISITOR 7825                
+POS_DAY 10602               
+POS_DOMAIN 3586                
+POS_LOGIN 3887                
+POS_ROBOT 4042                
+POS_WORMS 4313                
+POS_EMAILSENDER 4444                
+POS_EMAILRECEIVER 4587                
+POS_SESSION 10767               
+POS_SIDER 10963               
+POS_FILETYPES 4722                
+POS_DOWNLOADS 5000                
+POS_OS 5048                
+POS_BROWSER 5270                
+POS_SCREENSIZE 5876                
+POS_UNKNOWNREFERER 5950                
+POS_UNKNOWNREFERERBROWSER 6231                
+POS_ORIGIN 6384                
+POS_SEREFERRALS 6526                
+POS_PAGEREFS 6670                
+POS_SEARCHWORDS 6818                
+POS_KEYWORDS 6970                
+POS_MISC 2421                
+POS_ERRORS 7029                
+POS_CLUSTER 3743                
+POS_SIDER_400 7234                
+POS_SIDER_404 7413                
+POS_SIDER_403 7331                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20210518004002 6713 1611679 14508096214897
+FirstTime 20210515235944
+LastTime 20210518004002
+LastUpdate 20210518004002 4851 0 4806 45 0
+TotalVisits 42                  
+TotalUnique 29                  
+MonthHostsKnown 33                  
+MonthHostsUnknown 14                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavaEnabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+QuickTimeSupport 0 0 0
+JavascriptDisabled 0 0 0
+AddToFavourites 0 80 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 509 764 16372247 67 80 255252
+1 4 4 10927 20 20 188743
+2 5 5 16867 20 20 137236
+3 21 23 112998 20 21 204897
+4 6 6 15730 18 18 175218
+5 8 8 20875 26 28 225021
+6 6 6 19606 18 18 144071
+7 6 6 16424 20 20 114110
+8 7 7 18775 19 20 168921
+9 8 8 21492 19 20 131271
+10 9 39 1056756 21 21 122635
+11 12 12 30262 19 19 129434
+12 17 17 33528 19 19 176501
+13 75 90 4601898 27 27 169241
+14 397 661 12149457 27 30 163263
+15 30 62 1391442 21 21 135132
+16 142 208 4841613 41 45 158251
+17 310 427 11535208 30 39 196398
+18 307 945 29999080 41 73 256494
+19 299 478 9736850 41 50 272432
+20 204 283 14065004 201 203 558899
+21 484 627 9279396 48 55 292947
+22 400 437 8941311 151 153 408928
+23 129 136 6037617 58 62 238955
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 5
+br 2694 4424 112431470
+jp 355 355 5681979
+ip 338 453 11316967
+com 7 26 888991
+ua 1 1 5956
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+AhrefsBot/ 543 4201513 20210518004000 1
+no_user_agent 5 12611 20210517111650 3
+python 1 2438 20210517174722 0
+curl 1 7473 20210518000227 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+js 1041 75107153 0 0
+gif 7 2698 0 0
+css 508 3398775 0 0
+svg 4 162550 0 0
+Unknown 1675 13166209 0 0
+jpg 2 50334 0 0
+woff2 54 3588654 0 0
+php 1662 12422107 0 0
+py 2 13600 0 0
+png 248 16704403 0 0
+map 56 5708880 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 12
+win7 63 23
+win8 1 0
+linux 24 24
+macosx11 2 2
+win10 4006 2637
+winxp 3 0
+linuxandroid 1098 686
+macosx9 2 1
+win8.1 6 0
+winlong 31 1
+ios_ipad 14 12
+Unknown 9 9
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 28
+Unknown 3 3
+chrome90.0.4430.93 49 17
+chrome91.0.4472.54 310 287
+msie10.0 4 0
+msie9.0 31 1
+safari7.0.3 1 0
+chrome52.0.2743.116 3 3
+chrome37.0.2049.0 4 0
+chrome50.0.2661.102 1 1
+netscape5.0 5 5
+safari 14 12
+firefox50.0 2 0
+chrome23.0.1271.95 2 0
+firefox49.0 1 1
+opera12.16 1 0
+chrome87.0.4280.141 73 36
+chrome90.0.4430.212 4115 2551
+msie11.0 64 5
+mozilla 1 1
+chrome51.0.2704.103 5 5
+chrome78.0.3904.108 6 6
+msie11 2 0
+chrome77.0.3865.120 355 355
+chrome88.0.4324.190 1 1
+chrome35.0.1916.47 1 1
+chrome90.0.4430.210 202 104
+opera12.0 1 0
+chrome41.0.2228.0 2 0
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+WhatsApp/2.21.10.12_A 20210517212322
+Go-http-client/1.1 20210517113653
+Mozilla/5.0_zgrab/0.x 20210517170720
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20210517111650
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+WhatsApp/2.21.10.12_A 20210517212322
+Go-http-client/1.1 20210517113653
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1694 1933
+From1 0 0
+From2 0 0
+From3 0 0
+From4 1701 3326
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 11
+419 4 4069
+429 20 7700
+400 1 0
+404 336 539662
+302 26 34844
+206 3 5659
+301 10 4978
+403 15 5987
+401 23 7482
+405 4 3384
+500 8 7710
+END_ERRORS
+
+# URL with 400 errors - Hits - Last URL referrer
+BEGIN_SIDER_400 1
+/login.cgi 1 -
+END_SIDER_400
+
+# URL with 403 errors - Hits - Last URL referrer
+BEGIN_SIDER_403 0
+END_SIDER_403
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 3
+/phpmyadmin 1 -
+/boaform/admin/formLogin 1 http://45.173.36.150:80/admin/login.asp
+/config/getuser 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 47
+45-173-36-150.easyfiber.net.br 2639 4302 107747751 20210518003823 20210518000018 /api/partidas-home
+fp6fd9154c.knge123.ap.nuro.jp 355 355 5681979 20210516223717
+45.165.209.114 262 312 7062560 20210518004002 20210518000849 /api/relatorio-cambista
+191.39.86.99 38 41 877378 20210518001602 20210518001214 /api/print-bilhete-id/13
+177-56-178-66.3g.claro.net.br 24 25 808322 20210517142712
+191.62.57.71 12 12 9996 20210517134509
+ip-189-96-234-20.user.vivozap.com.br 12 44 1310836 20210517142534
+189.84.72.66 8 40 1289548 20210517220244
+177-95-237-132.dsl.telesp.net.br 7 39 1263222 20210517204704
+191-6-23-75.turbonett.com.br 6 7 665862 20210517160058
+ec2-18-236-64-136.us-west-2.compute.amazonaws.com 0 1 7907 
+address-190-124-21-11.metronethn.com 1 1 5955 20210517171229
+ec2-54-69-100-205.us-west-2.compute.amazonaws.com 0 1 30608 
+45.155.205.181 6 6 14462 20210517230841
+45.148.10.50 3 3 7156 20210517170720
+ec2-18-237-75-212.us-west-2.compute.amazonaws.com 0 1 2406 
+186.33.111.112 1 1 5955 20210517024324
+103.163.16.83 1 1 991461 20210515235944
+45.250.170.97 1 1 5959 20210517063834
+ec2-44-242-147-143.us-west-2.compute.amazonaws.com 1 1 2407 20210517045118
+scanner-08.ch1.censys-scanner.com 1 1 2386 20210517111650
+ec2-34-218-239-227.us-west-2.compute.amazonaws.com 1 1 2446 20210518000046 20210518000046 /
+ec2-54-203-131-69.us-west-2.compute.amazonaws.com 0 1 9185 
+ec2-35-162-90-242.us-west-2.compute.amazonaws.com 0 1 64908 
+ec2-54-186-133-226.us-west-2.compute.amazonaws.com 0 1 10319 
+ec2-54-191-86-22.us-west-2.compute.amazonaws.com 0 1 10132 
+187-102-78-133.customer.foxinternet.com.br 1 1 5954 20210517232602
+ec2-18-236-184-252.us-west-2.compute.amazonaws.com 0 1 32804 
+199.244.88.132 1 1 915 20210517121548
+ec2-54-185-35-0.us-west-2.compute.amazonaws.com 0 1 2188 
+ec2-18-237-105-80.us-west-2.compute.amazonaws.com 0 1 3903 
+127.65.246.35.bc.googleusercontent.com 2 2 1766 20210517113653
+80.82.76.26 2 2 4766 20210517092825
+security.criminalip.com 1 1 2389 20210517165035
+52.175.245.102 1 31 1034902 20210517105210
+ec2-54-200-106-24.us-west-2.compute.amazonaws.com 0 1 10373 
+72.252.209.43 1 1 5956 20210517201925
+ec2-34-221-211-148.us-west-2.compute.amazonaws.com 0 1 50853 
+ec2-34-213-8-98.us-west-2.compute.amazonaws.com 0 1 3895 
+ec2-54-184-99-25.us-west-2.compute.amazonaws.com 0 1 527075 
+ec2-54-213-177-65.us-west-2.compute.amazonaws.com 0 1 17104 
+103.157.168.44 1 1 5953 20210517033056
+ec2-52-24-167-100.us-west-2.compute.amazonaws.com 0 2 72264 
+179-240-166-35.3g.claro.net.br 5 6 629523 20210516202853
+tun-91-221-219-12.mandarun.com.ua 1 1 5956 20210517213609
+ec2-52-26-113-137.us-west-2.compute.amazonaws.com 0 1 12720 
+ec2-54-185-244-192.us-west-2.compute.amazonaws.com 0 1 2998 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 4
+20210515 1 1 991461 1
+20210516 548 639 20203791 6
+20210517 2657 4373 103555446 31
+20210518 189 246 5574665 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+0s-30s 28
+5mn-15mn 1
+30mn-1h 4
+30s-2mn 2
+1h+ 2
+15mn-30mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 99
+/phpmyadmin/ 1429 10213201 2 2
+/ 218 2172249 36 22
+/api/list-limites 216 282349 1 3
+/api/site-partidas-home 210 5855510 0 3
+/api/site-list-leagues-main 196 55962 0 0
+/api/site-list-leagues 196 55853 2 0
+/api/dias-futebol 195 73644 0 2
+/api/partidas-home 59 2524165 0 0
+/api/site-live-futebol 53 75468 0 1
+/api/site-partidas-amanha 52 2541512 0 0
+/admin/relatorio-cambista 6 21149 0 0
+/admin/caixa-adm-gerente 8 29353 0 0
+/admin/search-match 10 9496 0 0
+/api/site-list-odds/259519 4 1143 0 0
+/admin/encerrar-caixa/143 2 1905 0 0
+/admin/bilhetes 7 24828 1 0
+/bower_components/bootstrap/dist/css/bootstrap.min.css.map 45 4587496 0 1
+/admin/cadastrar-gerentes 2 7355 0 0
+/admin 2 7208 0 0
+/api/partidas-amanha 15 469233 0 0
+/api/site-list-odds/108634 1 692 0 0
+/admin/relatorio-gerente 2 7339 0 0
+/admin/list-caixa-adm-cambista 4 4217 0 0
+/admin/mercados-user 1 3680 0 0
+/api/bilhete/9 9 14335 0 0
+/admin/lancamentos 5 15631 0 0
+/admin/confrontos-aovivo 1 3676 0 0
+/admin/confrontos 2 7322 0 0
+/api/site-list-odds/259795 4 1120 0 0
+/api/login 18 23139 0 0
+/admin/list-configuracoes 12 23652 0 0
+/api/site-list-odds/259796 1 285 0 0
+/api/print-bilhete-id/2 1 285 0 0
+/admin/gerenciar-matchs 1 3663 0 0
+/api/user-logado 50 23273 0 0
+/api/site-list-odds/257017 1 286 0 0
+/api/bilhete/5 1 1592 0 0
+/admin/relatorio-home 16 16824 0 0
+/api/relatorio-cambista 3 952 0 0
+/admin/cadastrar-cambistas 1 3684 0 0
+/admin/cotacao-loto-sena 1 3674 0 0
+/gerenciador/ 5 1892 0 0
+/admin/cadastrar-cambista 1 953 0 0
+/api/site-list-odds/108374 1 14029 0 0
+/api/bilhete/13 2 3186 0 0
+/admin/search-relatorio-cambista 5 4750 0 0
+/admin/gerenciaento-riscos 2 7344 0 0
+/admin/list-confrontos 2 1900 0 0
+/admin/gerentes 3 11035 0 0
+/api/site-partidas-depois-amanha 42 472448 0 0
+/api/bilhete/10 2 3186 0 0
+/admin/list-caixa-adm-gerente 10 11307 0 0
+/api/print-bilhete-id/9 8 13494 0 1
+/api/bilhete/2 1 1592 0 0
+/api/bilhete/7 6 9558 0 0
+/admin/confrontos-aovivo-show 1 950 0 0
+/api/regulamento 11 3481 0 0
+/api/site-list-odds/259518 12 3425 0 0
+/gerenciador/demo.py 1 0 0 0
+/api/print-bilhete-id/7 6 7773 0 2
+/api/site-list-odds-live/107884 2 9105 0 0
+/admin/caixa-adm-cambista 4 14687 0 0
+/admin/list-bilhete-risco 3 2838 0 0
+/admin/cadastrar-gerente 2 1920 0 0
+/api/send-aposta-site 5 7332 0 0
+/api/partidas-depois-amanha 11 3135 0 0
+/admin/home 23 81289 0 0
+/api/print-bilhete-id/1 1 286 0 0
+/admin/list-gerente-caixa/143 2 2226 0 0
+/api/print-bilhete-id/13 2 2670 0 0
+/login 8 18900 0 0
+/admin/list-map-aposta 2 1898 0 0
+/vendor/adminlte/vendor/bootstrap/dist/css/bootstrap.min.css.map 11 1121384 0 0
+/api/bilhete/1 1 1592 0 0
+/phpmyadmin/js/messages.php 4 32492 0 0
+/api/site-list-odds/106933 1 20682 0 0
+/admin/odds-user 1 3666 0 0
+/api/print-bilhete-id/10 2 2576 0 0
+/admin/list-taxas-seninha 1 5599 0 0
+/admin/mapa-apostas 2 7355 0 0
+/gerenciador/teste.php 6 2273 0 0
+/admin/search-bilhete 5 4742 0 0
+/admin/list-lancamentos 5 5295 0 0
+/api/site-list-odds/259803 3 856 0 0
+/admin/mostra-bilhetes 7 6642 0 0
+/admin/cambistas 8 28925 0 0
+/admin/list-matchs-bloqueadas 1 954 0 0
+/api/print-bilhete-id/5 1 285 0 0
+/admin/cotacao-loto-quina 2 7342 0 0
+/api/site-list-odds/259813 2 571 0 0
+/gerenciador/betsapi/events.py 1 13600 0 0
+/api/send-pre-aposta 8 19252 0 1
+/api/bilhetes 5 13238 0 0
+/admin/list-cambistas 27 36531 0 0
+/admin/list-taxas-quininha 2 12806 0 0
+/admin/configuracoes 6 22104 0 0
+/admin/list-gerentes 26 39182 0 0
+/api/site-list-odds/259520 3 856 0 0
+/admin/user-logado 8 13007 0 0
+END_SIDER

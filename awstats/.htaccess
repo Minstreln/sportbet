@@ -1,0 +1,4 @@
+AuthName "starbetss.net.br statistics"
+AuthType Basic
+AuthUserFile /home/starbetss/.awstats-htpasswd
+require valid-user

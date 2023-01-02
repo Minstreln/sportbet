@@ -1,0 +1,457 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 202105 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.bolha.dev.br.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 30
+POS_GENERAL 2065                
+POS_TIME 2754                
+POS_VISITOR 8450                
+POS_DAY 14708               
+POS_DOMAIN 3585                
+POS_LOGIN 3960                
+POS_ROBOT 4115                
+POS_WORMS 4389                
+POS_EMAILSENDER 4520                
+POS_EMAILRECEIVER 4663                
+POS_SESSION 14852               
+POS_SIDER 15058               
+POS_FILETYPES 4798                
+POS_DOWNLOADS 5056                
+POS_OS 5104                
+POS_BROWSER 5297                
+POS_SCREENSIZE 5978                
+POS_UNKNOWNREFERER 6052                
+POS_UNKNOWNREFERERBROWSER 6386                
+POS_ORIGIN 6592                
+POS_SEREFERRALS 6734                
+POS_PAGEREFS 6893                
+POS_SEARCHWORDS 7210                
+POS_KEYWORDS 7362                
+POS_MISC 2417                
+POS_ERRORS 7421                
+POS_CLUSTER 3816                
+POS_SIDER_403 7591                
+POS_SIDER_400 7673                
+POS_SIDER_404 7761                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20210601000521 6841 1274771 14263274908137
+FirstTime 20210529205438
+LastTime 20210531235847
+LastUpdate 20210601051901 1823 0 1796 25 1
+TotalVisits 116                 
+TotalUnique 87                  
+MonthHostsKnown 87                  
+MonthHostsUnknown 16                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+JavaEnabled 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+PDFSupport 0 0 0
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+AddToFavourites 0 86 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 74 138 5131121 164 168 163665
+1 27 47 1553644 230 232 868127
+2 8 8 75440 34 36 374896
+3 4 4 51435 14 16 445198
+4 0 0 0 3 3 74113
+5 3 3 61242 6 6 117153
+6 10 10 121621 5 5 345023
+7 14 14 540916 4 4 142304
+8 14 46 1191987 6 7 56475
+9 0 0 0 20 54 2802612
+10 7 7 79667 96 131 7094515
+11 19 111 4922607 28 31 548508
+12 6 38 1085680 133 134 560230
+13 28 106 10035968 189 191 953805
+14 33 138 5476738 195 198 710310
+15 28 60 1612569 170 175 79945
+16 27 27 154161 181 188 224674
+17 5 5 11275 278 282 1124555
+18 39 136 4917472 151 153 72566
+19 4 4 72021 159 162 242144
+20 26 90 5507886 193 195 1036584
+21 238 1337 50263463 357 423 4549837
+22 175 444 22788576 238 248 4733722
+23 243 722 26964802 177 223 1290650
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 10
+br 819 2936 108425460
+ip 78 244 9497735
+com 62 208 22302343
+arpa 49 83 1873172
+org 15 15 176244
+net 4 4 152166
+ru 2 2 76108
+io 1 1 40941
+it 1 1 38054
+rs 1 1 38068
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+motor 217 5923009 20210531235710 0
+no_user_agent 19 662354 20210531215334 1
+python 3 35872 20210530162644 0
+netcraft 2 41317 20210530093512 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+php 269 6741387 0 0
+css 741 4816579 0 0
+woff2 68 4232813 0 0
+jpg 4 102808 0 0
+Unknown 763 44433048 0 0
+svg 4 217377 0 0
+js 1427 76541311 0 0
+png 210 5431818 0 0
+woff 1 98308 0 0
+gif 8 4842 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+win8 1 1
+ios_iphone 460 161
+win7 697 175
+linux 196 37
+win8.1 62 21
+linuxandroid 710 288
+Unknown 9 9
+macosx11 5 5
+win10 1355 335
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 29
+safari9.1.2 3 3
+chrome90.0.4430.212 1142 256
+chrome34.0.1847.137 1 1
+chrome80.0.3987.132 132 64
+chrome50.0.2661.102 2 2
+chrome72.0.3626.109 78 24
+chrome90.0.4430.91 45 13
+chrome81.0.4044.138 12 12
+netscape5.0 2 2
+chrome60.0.3112.113 15 15
+chrome51.0.2704.103 13 13
+firefox82.0 2 2
+chrome58.0.3047.70 1 1
+chrome88.0.4324.190 1 1
+msie9.0 1 1
+safari11.0 1 1
+safari12.0 41 9
+chrome90.0.4430.210 571 214
+mozilla 5 5
+chrome78.0.3904.108 9 9
+chrome52.0.2743.116 2 2
+opera76.0.4017.154 108 35
+firefox88.0 601 133
+chrome83.0.4103.97 40 8
+chrome93.0.4526.0 130 28
+chrome81.0.4044.129 1 1
+chrome91.0.4472.77 50 18
+safari 484 157
+Unknown 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+HTTP_Banner_Detection_(https://security.ipip.net) 20210529230632
+Mozilla/5.0_zgrab/0.x 20210531101616
+https://gdnplus.com:Gather_Analyze_Provide. 20210529222453
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20210531180250
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+HTTP_Banner_Detection_(https://security.ipip.net) 20210529230632
+https://gdnplus.com:Gather_Analyze_Provide. 20210529222453
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 277 590
+From1 0 0
+From2 1 1
+From3 12 104
+From4 742 2800
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google_com 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 4
+http://167.99.216.218 9 70
+https://167.99.216.218 2 32
+https://167.99.216.218:10000 1 1
+http://167.99.216.218/bower_components/font-awesome/css/font-awesome.min.css 0 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+404 224 5005440
+401 13 5145
+405 19 7155775
+500 278 9504351
+400 2389 0
+301 13 17944
+302 2 4335
+END_ERRORS
+
+# URL with 403 errors - Hits - Last URL referrer
+BEGIN_SIDER_403 0
+END_SIDER_403
+
+# URL with 400 errors - Hits - Last URL referrer
+BEGIN_SIDER_400 1
+/ 5 -
+END_SIDER_400
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 12
+/.env 3 -
+/bag2 1 -
+/mifs/. 1 https://167.99.216.218:443
+/_ignition/execute-solution 1 -
+/wp-content 1 -
+/wp-content/plugins/wp-file-manager/readme.txt 1 -
+/api/jsonws/invoke 1 -
+/GponForm/diag_Form 1 -
+/CMSPages/Staging/SyncServer.asmx 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/console 1 https://167.99.216.218:443/console/
+/Autodiscover/Autodiscover.xml 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 103
+45-173-36-150.easyfiber.net.br 240 1062 28418767 20210529232113
+170-79-32-46.wantel.net.br 218 750 31815851 20210531175238
+45.6.136.124.rainternet.com.br 63 290 11959503 20210530084627
+152-235-42-221.user.veloxzone.com.br 60 92 5119424 20210530010830
+45.187.16.224 55 221 8958671 20210531202537
+b5de65f8.virtua.com.br 47 121 4212598 20210531235847
+static-150.220.196.168.speednetbr.com.br.com.br.220.196.168.in-addr.arpa 43 77 1754024 20210530123238
+b5de65ce.virtua.com.br 38 73 5719249 20210529235754
+152-235-175-97.user.veloxzone.com.br 21 94 3696772 20210531142900
+177-131-81-201.shared.desktop.com.br 18 50 1899012 20210529225756
+worker-10.sfj.censys-scanner.com 1 1 12305 20210531101616
+191-214-106-253.user3g.veloxzone.com.br 14 47 1863268 20210530183546
+103.65.195.228 1 1 38072 20210530074027
+zl-dal-us-gp3-wk108.internet-census.org 1 1 12375 20210530223359
+zl-ams-nl-gp3-wk101a.internet-census.org 2 2 21645 20210531161410
+125.167.113.236 1 1 38067 20210530194940
+static-11.220.196.168.speednetbr.com.br.com.br.220.196.168.in-addr.arpa 5 5 79235 20210529220742
+ip-177-79-84-33.user.vivozap.com.br 2 2 9111 20210531231230
+80.48.99.34 1 1 38055 20210530154513
+zl-dal-us-gp3-wk109.internet-census.org 3 3 35589 20210531053902
+ec2-35-164-155-147.us-west-2.compute.amazonaws.com 1 1 1222574 20210531132558
+zl-ams-nl-gp3-wk103.internet-census.org 1 1 12366 20210531053309
+ec2-54-90-213-114.compute-1.amazonaws.com 13 13 502844 20210531071424
+ec2-34-211-143-18.us-west-2.compute.amazonaws.com 0 1 71368 
+ec2-52-39-201-46.us-west-2.compute.amazonaws.com 0 1 4975 
+ec2-52-90-66-82.compute-1.amazonaws.com 2 7 257544 20210530215433
+scanner-07.ch1.censys-scanner.com 1 1 10775 20210530224149
+152-235-184-29.user.veloxzone.com.br 8 40 1727615 20210530204805
+91.92.82.140 1 1 38082 20210530114654
+ec2-54-196-4-28.compute-1.amazonaws.com 1 1 47956 20210531131623
+ec2-54-87-188-132.compute-1.amazonaws.com 1 3 80683 20210529221037
+45.146.164.125 9 9 111177 20210531143927
+186.33.112.182 1 1 38070 20210531134557
+cloud.census.shodan.io 1 1 40941 20210530162633
+ip-212-69-18-123.oriontelekom.rs 1 1 38068 20210531025140
+152-235-56-31.user.veloxzone.com.br 8 40 1727598 20210530142001
+177-203-233-146.user3p.brasiltelecom.net.br 1 1 38075 20210530152520
+ec2-54-213-213-68.us-west-2.compute.amazonaws.com 1 1 8627 20210531132448
+228.100.40.189.isp.timbrasil.com.br 6 38 1729050 20210529213248
+gory.moscow.access.comstar.ru 1 1 38053 20210531124641
+li-dal-us-gd4-wk106a.internet-census.org 2 2 23196 20210531104304
+ec2-18-205-163-183.compute-1.amazonaws.com 0 3 148500 
+zl-lax-us-gp3-wk112.internet-census.org 1 1 10790 20210530165903
+ec2-35-162-157-3.us-west-2.compute.amazonaws.com 0 1 26217 
+ec2-54-158-3-66.compute-1.amazonaws.com 1 2 5203 20210531131530
+152-235-159-127.user.veloxzone.com.br 14 14 188887 20210529221256
+ec2-34-209-124-51.us-west-2.compute.amazonaws.com 1 1 38327 20210531133123
+security.criminalip.com 10 42 1770210 20210531111441
+20.57.48.222 1 1 5990 20210530104832
+ec2-52-11-169-5.us-west-2.compute.amazonaws.com 0 1 3826230 
+scanner-05.ch1.censys-scanner.com 2 2 25041 20210531180250
+ec2-52-45-146-35.compute-1.amazonaws.com 6 66 3092225 20210531110911
+ec2-54-80-198-189.compute-1.amazonaws.com 1 4 192408 20210529221100
+zg-0520b-282.stretchoid.com 1 1 12358 20210531035530
+ec2-54-245-52-135.us-west-2.compute.amazonaws.com 0 1 11056 
+117.241.98.92 1 1 38067 20210530154235
+ec2-54-212-200-193.us-west-2.compute.amazonaws.com 0 1 37297 
+nz26l71.bb60246.ctm.net 1 1 38067 20210531084456
+ec2-3-92-191-124.compute-1.amazonaws.com 0 2 29920 
+191-214-124-56.user3g.veloxzone.com.br 10 42 1757336 20210531211246
+ec2-18-207-242-7.compute-1.amazonaws.com 1 3 264237 20210529221016
+59-127-54-200.hinet-ip.hinet.net 1 1 38093 20210529214454
+ec2-54-146-171-206.compute-1.amazonaws.com 0 1 18864 
+ec2-52-25-123-2.us-west-2.compute.amazonaws.com 0 1 6314 
+121.165.106.234 1 1 13312 20210531100509
+ec2-54-185-58-63.us-west-2.compute.amazonaws.com 1 1 321 20210531132638
+46.101.52.69 1 1 13936 20210531003657
+ec2-54-91-81-216.compute-1.amazonaws.com 3 5 253674 20210529221236
+ec2-35-173-203-4.compute-1.amazonaws.com 1 5 539171 20210529220923
+ec2-13-52-104-245.us-west-1.compute.amazonaws.com 1 1 10800 20210531011709
+ec2-54-149-228-132.us-west-2.compute.amazonaws.com 1 2 15961 20210531132919
+pppoe.itech.ru 1 1 38055 20210530180922
+scanner-06.ch1.censys-scanner.com 2 2 23281 20210530192801
+152-235-166-97.user.veloxzone.com.br 6 6 22282 20210530062912
+ec2-34-220-155-20.us-west-2.compute.amazonaws.com 0 1 211186 
+36.74.75.64 1 1 38090 20210531061302
+zl-lax-us-gp3-wk105a.internet-census.org 2 2 23167 20210531140845
+host-79-16-24-214.retail.telecomitalia.it 1 1 38054 20210530131311
+103.209.205.94 1 1 38057 20210530055728
+ec2-54-243-8-20.compute-1.amazonaws.com 0 1 33851 
+crawler-7.ipip.net 1 1 37946 20210529230632
+ec2-34-217-69-186.us-west-2.compute.amazonaws.com 1 1 29706 20210531132647
+ec2-54-146-176-237.compute-1.amazonaws.com 1 4 311320 20210530215355
+ec2-52-10-52-243.us-west-2.compute.amazonaws.com 0 1 144567 
+ec2-18-212-27-105.compute-1.amazonaws.com 0 4 264278 
+103.203.93.253 1 1 38079 20210529224032
+161.35.208.138 1 1 13936 20210531145002
+cpc121210-nmal25-2-0-cust168.19-2.cable.virginm.net 1 1 38060 20210530063412
+ec2-54-145-74-131.compute-1.amazonaws.com 3 5 3937371 20210530215533
+zl-ams-nl-gd8-wk101.internet-census.org 1 1 12372 20210531063230
+152-235-18-101.user.veloxzone.com.br 4 37 1735049 20210529215812
+ec2-54-175-131-163.compute-1.amazonaws.com 3 6 726927 20210530215341
+152-235-47-45.user.veloxzone.com.br 6 6 22796 20210529225628
+191-214-101-29.user3g.veloxzone.com.br 9 41 1757425 20210530212600
+ec2-13-57-208-59.us-west-1.compute.amazonaws.com 1 1 12961 20210531034442
+213.6.196.230 1 1 38074 20210531210809
+zl-lax-us-gp3-wk110.internet-census.org 2 2 24744 20210531192543
+ip-177-79-109-181.user.vivozap.com.br 3 3 2164 20210531231230
+ec2-54-157-169-222.compute-1.amazonaws.com 0 5 3985558 
+ec2-54-186-221-26.us-west-2.compute.amazonaws.com 0 1 77352 
+74-128.206.104.serverhubrdns.in-addr.arpa 1 1 39913 20210529222453
+45.6.136.127.rainternet.com.br 11 43 1069970 20210530184451
+187-40-223-40.user3p.veloxzone.com.br 12 44 1933658 20210531184152
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 3
+20210529 573 2224 87830581 27
+20210530 217 616 25567890 37
+20210531 242 655 29221820 52
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+30mn-1h 4
+0s-30s 90
+15mn-30mn 4
+30s-2mn 9
+2mn-5mn 2
+5mn-15mn 3
+1h+ 4
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 24
+/ 181 6219490 87 55
+/_debugbar/open 180 12898375 7 21
+/api/dias-futebol 110 54851 5 16
+/api/site-partidas-home 99 866676 3 6
+/phpmyadmin/ 83 474822 1 2
+/api/list-limites 68 92166 1 5
+/api/site-list-leagues 68 28083 5 3
+/api/site-list-leagues-main 67 27884 3 2
+/_debugbar/assets/stylesheets 58 7060843 1 1
+/_debugbar/assets/javascript 57 21148982 0 2
+/api/site-list-odds/108480 2 54859 0 0
+/phpmyadmin/js/messages.php 5 47075 0 0
+/api/site-partidas-depois-amanha 3 190069 0 0
+/api/site-list-odds/108634 1 762 0 0
+/password/reset 1 11526 0 0
+/api/site-list-odds-live/107884 4 20650 0 0
+/api/site-partidas-amanha 18 1746729 1 0
+/api/site-list-odds/108087 1 9930 0 0
+/api/regulamento 2 773 0 0
+/api/site-list-odds/108457 1 16128 0 0
+/login 1 12358 1 1
+/api/site-list-odds/108025 5 149042 1 2
+/api/send-pre-aposta 2 9799 0 0
+/api/site-live-futebol 15 32563 0 0
+END_SIDER
